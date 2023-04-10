@@ -1,5 +1,5 @@
 FILEPATH = "todo.txt"
-def get_todos(file_path = FILEPATH):
+def get_todos(file_path=FILEPATH):
     """ Read a text file and return a
     list of tp-do items.
     """
@@ -7,8 +7,7 @@ def get_todos(file_path = FILEPATH):
         todos_local = file_local.readlines()
         return todos_local
 
-
-def write_todos(todos_arg, file_path = FILEPATH):
+def write_todos(todos_arg, file_path=FILEPATH):
     """ Write the to-do items list in the text
     file.
     """
